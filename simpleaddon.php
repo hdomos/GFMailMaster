@@ -30,15 +30,15 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
 if (class_exists("GFForms")) {
     GFForms::include_addon_framework();
 
-    class GFSimpleAddOn extends GFAddOn {
+    class GFMailMaster extends GFAddOn {
 
         protected $_version = "1.1";
         protected $_min_gravityforms_version = "1.7.9999";
-        protected $_slug = "simpleaddon";
-        protected $_path = "asimpleaddon/asimpleaddon.php";
+        protected $_slug = "mailmaster";
+        protected $_path = "mailmaster/mailmaster.php";
         protected $_full_path = __FILE__;
-        protected $_title = "Gravity Forms Simple Add-On";
-        protected $_short_title = "Simple Add-On";
+        protected $_title = "Gravity Forms Mailmaster exporter";
+        protected $_short_title = "Mailmaster export";
 
         public function init(){
             parent::init();
@@ -271,5 +271,5 @@ if (class_exists("GFForms")) {
 
     }
 
-    new GFSimpleAddOn();
+    new GFMailMaster();
 }
