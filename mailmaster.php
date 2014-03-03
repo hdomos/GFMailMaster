@@ -1,14 +1,14 @@
 <?php
 /*
-Plugin Name: Gravity Forms Simple Add-On
+Plugin Name: Gravity Forms Mailmaster Add-On
 Plugin URI: http://www.gravityforms.com
 Description: A simple add-on to demonstrate the use of the Add-On Framework
 Version: 1.1
-Author: Rocketgenius
-Author URI: http://www.rocketgenius.com
+Author: HDomos
+Author URI: http://www.hdomos.com
 
 ------------------------------------------------------------------------
-Copyright 2012-2013 Rocketgenius Inc.
+Copyright 2014 HDomos
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
