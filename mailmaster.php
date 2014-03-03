@@ -35,7 +35,7 @@ if (class_exists("GFForms")) {
         protected $_version = "1.1";
         protected $_min_gravityforms_version = "1.7.9999";
         protected $_slug = "mailmaster";
-        protected $_path = "mailmaster/mailmaster.php";
+        protected $_path = "gravity-forms-mailmaster/mailmaster.php";
         protected $_full_path = __FILE__;
         protected $_title = "Gravity Forms Mailmaster exporter";
         protected $_short_title = "Mailmaster export";
